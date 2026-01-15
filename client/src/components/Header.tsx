@@ -99,8 +99,7 @@ export default function Header() {
                 {profileOpen && (
                   <div className="absolute right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 animate-fade-in">
                     <div className="px-4 py-3 border-b border-gray-100">
-                      <p className="text-sm font-medium text-gray-900">{user.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{user.email}</p>
+                      <p className="text-sm font-medium text-gray-900">{user.email}</p>
                       {user.isSubscriber && (
                         <span className="inline-block mt-2 px-2 py-0.5 text-xs font-medium bg-primary-100 text-primary-700 rounded-full">
                           Premium Member
@@ -151,7 +150,7 @@ export default function Header() {
               <div className="px-4 py-3 mb-2 bg-gray-50 rounded-lg">
                 <div className="flex items-center gap-2">
                   <User className="w-4 h-4 text-gray-500" />
-                  <span className="text-sm font-medium text-gray-900">{user.name}</span>
+                  <span className="text-sm font-medium text-gray-900">{user.email}</span>
                   {user.isSubscriber && (
                     <span className="px-2 py-0.5 text-xs font-medium bg-primary-100 text-primary-700 rounded-full">
                       Premium

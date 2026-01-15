@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import api from '../lib/axios';
-import type { WishlistResponse, WishlistItem } from '../types';
+import type { WishlistResponse } from '../types';
 
 export function useWishlist() {
   return useQuery<WishlistResponse>({
