@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-#docs
-client/CLIENT_DOCUMENTATION.md
-
 # Environment variables
 .env
 .env.local
