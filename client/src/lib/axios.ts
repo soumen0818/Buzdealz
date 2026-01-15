@@ -28,7 +28,7 @@ api.interceptors.response.use(
       
       // Don't redirect automatically - let components handle it
       // This prevents auto-redirect on page load for guest users
-      if (process.env.NODE_ENV === 'development') {
+      if (import.meta.env.MODE === 'development') {
         console.warn('Authentication required');
       }
     }
