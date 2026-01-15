@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1705315200000,
+      "tag": "0000_create_base_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1705315260000,
+      "tag": "0001_create_wishlist_table",
+      "breakpoints": true
+    }
+  ]
+}
